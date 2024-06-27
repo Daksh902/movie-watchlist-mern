@@ -1,0 +1,178 @@
+/* App-wide styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* MovieItem styles */
+.movie-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-item img {
+    width: 10%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.movie-item h3 {
+    margin-top: 0;
+}
+
+.movie-item p {
+    margin: 5px 0;
+}
+
+.movie-item button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.movie-item button:hover {
+    background-color: #0056b3;
+}
+
+.movie-item .favorite-button {
+    background-color: #28a745;
+}
+
+.movie-item .favorite-button:hover {
+    background-color: #218838;
+}
+
+/* AddMovie and EditMovie styles */
+.add-edit-movie {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-edit-movie h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.add-edit-movie form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-edit-movie label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.add-edit-movie input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.add-edit-movie button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-edit-movie button:hover {
+    background-color: #0056b3;
+}
+
+/* FavoriteMovies styles */
+.favorite-movies {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-movies h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.favorite-movies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.favorite-movies li {
+    margin-bottom: 10px;
+}
+
+/* SearchBar styles */
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
