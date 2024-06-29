@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3000",
+  "proxy": "https://movie-watchlist-backend-4vot.onrender.com/",
   "eslintConfig": {
     "extends": [
       "react-app",
